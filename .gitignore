@@ -1,0 +1,6 @@
+auto-save-list/
+*.dat
+*.session
+elpa/
+*.dir-locals.el
+
