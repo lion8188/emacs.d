@@ -33,4 +33,7 @@
 ;;disable mac right alt key
 (setq mac-right-option-modifier nil)
 
+;; always show line numbers in all programming modes
+(add-hook 'prog-mode-hook 'linum-mode)
+
 (provide 'init-basic)
