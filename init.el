@@ -8,3 +8,5 @@
 
 ;;themes
 (require 'init-themes)
+
+(require 'init-javascript)
