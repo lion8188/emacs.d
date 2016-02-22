@@ -10,3 +10,4 @@
 (require 'init-themes)
 
 (require 'init-javascript)
+(require 'init-smex)
