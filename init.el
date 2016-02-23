@@ -11,3 +11,4 @@
 
 (require 'init-javascript)
 (require 'init-smex)
+(require 'init-window)
