@@ -12,3 +12,4 @@
 (require 'init-javascript)
 (require 'init-smex)
 (require 'init-window)
+(require 'init-touchpad)
