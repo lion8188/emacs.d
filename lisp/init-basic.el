@@ -23,7 +23,8 @@
 (setq echo-keystrokes 0.1
       visible-bell t)
 (show-paren-mode t)
-
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
 (setq column-number-mode t)
 
 ;;disable temp files
