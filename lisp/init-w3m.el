@@ -37,7 +37,7 @@
         ;; stackoverflow search
         ("q" "http://www.google.com/search?q=%s+site:stackoverflow.com" utf-8)
         ;; wikipedia
-        ("w" "http://en.wikipedia.org/wiki/Special:Search?search=%s" utf-8)
+        ("w" "http://en.wikipedia.org/wiki/Special:Search?search=%s" utf-8)))
 
 (defun w3m-set-url-from-search-engine-alist (k l url)
     (if (listp l)
@@ -76,12 +76,6 @@
 
 (add-hook 'w3m-mode-hook 'w3m-mode-hook-setup)
 
-; {{ Search using external browser
-(setq browse-url-generic-program
-      (cond
-       (*is-a-mac* "open")
-       (*linux* (executable-find "firefox"))
-       ))
 (setq browse-url-browser-function 'browse-url-generic)
 
 (defun w3mext-open-link-or-image-or-url ()

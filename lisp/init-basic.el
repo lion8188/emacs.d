@@ -2,6 +2,9 @@
 (setq user-full-name "adai")
 (setq user-mail-address "adaiagain@gmail.com")
 
+;;extend exec-path
+(setq exec-path (cons "/usr/local/bin" exec-path))
+
 ;;splash screen
 (setq inhibit-splash-screen t
       initial-scratch-message nil)
