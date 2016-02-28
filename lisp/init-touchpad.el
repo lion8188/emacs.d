@@ -8,8 +8,8 @@
   (let ((inhibit-message t) (default-directory "~"))
     (shell-command "synclient TouchpadOff=0")))
 
-(cond (*linux*)
-    (
+(if (eq *linux* t)
+    (progn 
      (add-hook 'focus-in-hook #'turn-off-mouse)
      (add-hook 'focus-out-hook #'turn-on-mouse)
      (add-hook 'delete-frame-functions #'turn-on-mouse)
