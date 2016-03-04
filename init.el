@@ -15,6 +15,6 @@
 (require 'init-javascript)
 (require 'init-smex)
 (require 'init-window)
-(require 'init-touchpad)
+;(require 'init-touchpad)
 (require 'init-w3m)
 (require 'init-git)
